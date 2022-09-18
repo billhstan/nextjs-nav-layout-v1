@@ -17,10 +17,10 @@ export default function Home() {
         <meta name="description" content="To assist in internship coordination" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div  className="w-4/5 self-center mx-auto">
+      <div  className="max-w-7xl px-4 border self-center mx-auto">
         <div className="flex w-100  border justify-center py-2">
-      <button className="btn btn-outline btn-secondary mx-2" onClick={handleLoginButtonClick}>Login</button>
-      <button className="btn btn-outline btn-success mx-2" onClick={handleLogoutButtonClick}>Logout</button>
+      <button className="btn btn-outline btn-primary mx-2 md:btn-md sm:btn-sm btn-xs" onClick={handleLoginButtonClick}>Login</button>
+      <button className="btn btn-outline btn-secondary mx-2 md:btn-md sm:btn-sm btn-xs" onClick={handleLogoutButtonClick}>Logout</button>
       </div>
       <p>
       What is Lorem Ipsum?

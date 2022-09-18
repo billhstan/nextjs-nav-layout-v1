@@ -13,7 +13,7 @@ function Layout({children}) {
     </Head>
     <div className="flex flex-col h-screen">
       <Header></Header>
-      <main className="flex-1 overflow-y-auto p-5">
+      <main className="flex-1 overflow-y-auto ml-4 py-5">
            {children}
       </main>
       <Footer></Footer>
