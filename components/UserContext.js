@@ -5,7 +5,7 @@ const UserContext = React.createContext()
 function userReducer(state, action) {
   switch (action.type) {
     case 'login': {
-      return {user: {email:'aliana.arin@yahoo.com.sg'}}
+      return {user: {email:'gritia.aliana.arin@yahoo.com.sg'}}
     }
     case 'logout': {
       return {user: null}
