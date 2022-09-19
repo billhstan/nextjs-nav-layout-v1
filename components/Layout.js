@@ -11,9 +11,9 @@ function Layout({children}) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Experiment navigation bar and layout</title>
     </Head>
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col h-screen min-w-[800px]">
       <Header></Header>
-      <main className="flex-1 overflow-y-auto ml-4 py-5">
+      <main className="flex-1 overflow-y-auto ml-4 py-5 ">
            {children}
       </main>
       <Footer></Footer>
